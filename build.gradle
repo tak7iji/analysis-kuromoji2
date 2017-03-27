@@ -17,8 +17,8 @@
  * under the License.
  */
 
-version=${version} 
- 
+version="5.2.2"
+
 buildscript {
     repositories {
         mavenCentral()
@@ -29,7 +29,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.elasticsearch.gradle:build-tools:${version}"
+        classpath "org.elasticsearch.gradle:build-tools:5.2.2"
     }
 }
 
